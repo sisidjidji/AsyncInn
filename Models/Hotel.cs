@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace AsyncInn.Models
 {
-    public class Hotels
+    public class Hotel
     {
         public int HotelId { get; set;}
         public decimal Rate { get; set; }
