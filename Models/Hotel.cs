@@ -7,5 +7,12 @@ namespace AsyncInn.Models
 {
     public class Hotels
     {
+        public int HotelId { get; set;}
+        public decimal Rate { get; set; }
+        public Room RoomId { get; set; }
+        public  enum PetFreindly {
+            yes,
+            no
+        }
     }
 }
