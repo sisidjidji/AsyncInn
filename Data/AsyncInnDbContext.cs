@@ -27,8 +27,9 @@ namespace AsyncInn.Data
 
             modelBuilder.Entity<RoomAmenities>().HasKey(RoomAmenities => new
             {
+                
+                RoomAmenities.AmenitiesId,
                 RoomAmenities.RoomId,
-                RoomAmenities.AmenitiesId
             });
         }
 
